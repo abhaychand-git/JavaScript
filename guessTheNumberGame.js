@@ -1,5 +1,6 @@
 // This game has a pre-decided integer, your mission is to Guess the Number.
 // The pre_decided integer is left blank for you to decide in the code as the variable gameNumber.
+// This interactive game can run directly in the Browser.
 
 
 var gameNumber= [];
@@ -8,5 +9,6 @@ while (guessNumber!=gameNumber){
     guessNumber = prompt("Guess the Number:")
 }
 alert("CONGRATULATIONS! You Won!")
+console.log("Player Won!")
 
 
